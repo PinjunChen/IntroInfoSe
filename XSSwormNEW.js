@@ -1,7 +1,7 @@
 <script type="text/javascript">
 window.onload = function() {
-    Ajax = null;
-    Ajax2 = null;
+    var Ajax = null;
+    var Ajax2 = null;
     // 提取所需的数据
     var userName = "&name=" + elgg.session.user.name;
     var guid = "&guid=" + elgg.session.user.guid;
