@@ -1,4 +1,3 @@
-<script type="text/javascript">
 window.onload = function() {
     var Ajax = null;
     var Ajax2 = null;
@@ -21,4 +20,3 @@ window.onload = function() {
         Ajax2.send();
     }
 }
-</script>
